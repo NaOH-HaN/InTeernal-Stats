@@ -1,10 +1,12 @@
 window.Config = {
 
   // 显示标题
-  SiteName: 'HNP Server Status',
+  SiteName: 'HNPS Status(Classic)',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
+  // 注意：请不要在生产环境中使用Key
+  //配置为仓库变量
   ApiKeys: [
     'm795879085-c2f5ffc50085c3fc7bae509e',
     'm795879101-73831c99d7d474af0baa8980',
@@ -17,20 +19,20 @@ window.Config = {
   CountDays: 90,
 
   // 是否显示检测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 导航栏菜单
   Navi: [
     {
-      text: 'Homepage',
-      url: 'https://status.org.cn/'
+      text: 'New Status Page',
+      url: 'https://status.hzokana.top/'
     },
     {
       text: 'GitHub',
       url: 'https://github.com/NaOH-HaN/HNPS_uptime-status/'
     },
     {
-      text: 'Docs',
+      text: 'HNPS Docs',
       url: 'https://github.com/NaOH-HaN/HNPS-Docs'
     },
   ],
