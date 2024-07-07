@@ -13,7 +13,7 @@ window.Config = {
     'm795879094-f233816139b63de17edeeae4',
     'm795996190-01d43eb7ccd33cc3097bb857',
     'm796265864-222238da59f021d11cdf43d4',
-    process.env.uprbapi_link_simpfun_homepage, // 尝试使用vercel变量代替明文
+    'process.env.uprbapi_link_simpfun_homepage', // 尝试使用vercel变量代替明文
   ],
 
   // 日志天数
