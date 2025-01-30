@@ -3,8 +3,6 @@
 一个基于 UptimeRobot API 的在线状态面板
 
 
-本服务向 <u>[HNPS Project][website.Docs]</u> 提供服务
+本服务向 InTeternal私有服务器群组项目 提供服务
 
 Special thanks | NaOH Cloud Team
-
-[website.Docs]: https://docs.hzokana.top/
